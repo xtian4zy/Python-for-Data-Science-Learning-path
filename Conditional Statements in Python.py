@@ -233,3 +233,30 @@ else:
     print('You result is not clear')
  
 
+
+# ### Sample Project 3
+# Take a variable x and print 'Even' if the number is divisible by 2 otherwise print 'Odd'.
+
+# In[41]:
+
+
+x = 4
+if (x %2 == 0):
+    print('Even')
+else: print('Odd')
+
+
+# ### Sample Project 4
+# Write a conditional statement that prints students grade. If the grade is greater than 90 print 'A', print 'B' is grade is greater than 60 but lesser than 90, otherwise print 'F'
+
+# In[44]:
+
+
+x= 40  #You can change this value to test other block code
+if (x > 90):
+    print('A')
+elif(x > 60 and x <=90):
+        print('B')
+else:
+    print('F')
+
